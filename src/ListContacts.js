@@ -18,7 +18,7 @@ class ListContacts extends Component {
   }
 
   render() {
-    const { contact, onDeleteContact } =this.props
+    const { contacts, onDeleteContact } =this.props
     const { query } = this.state
 
     let showingContacts
